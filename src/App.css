@@ -1,0 +1,44 @@
+.bg-color{
+  background-image: linear-gradient(to right,#38bdf8, #c026d3);
+
+}
+.bg-main{
+  background: url(./assets/bg.jpg) ;
+ 
+  background-attachment: fixed;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+  background-position: center;  
+
+}
+.main-color{
+  color:rgb(3, 11, 42) ;
+}
+.main-color2{
+  color:rgb(40, 84, 7) ;
+}
+.main-color3{
+  color:rgb(148, 14, 9) ;
+}
+.custom-btn {
+  color: #38bdf8; /* Warning color */
+  border: 1px solid #38bdf8;
+  background-color: transparent;
+  padding: 0.175rem 0.65rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.custom-btn:hover {
+  color: #ffff;
+  background-color: #38bdf8;
+  border-color:#38bdf8;
+}
+.custom-border {
+  border-style: solid;   /* Equivalent to the 'border' class */
+  border-width: 3px;     /* Equivalent to the 'border-3' class */
+  border-color:  #38bdf8; /* Equivalent to the 'border-warning' class */
+}
