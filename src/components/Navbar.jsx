@@ -22,7 +22,7 @@ const Navbar = () => {
                                 <Link className="nav-link active text-white fs-5 fw-semibold" aria-current="page" to={"about"}>About</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active text-white fs-5 fw-semibold" aria-current="page" to={"product/boy"}>Products</Link>
+                                <Link className="nav-link active text-white fs-5 fw-semibold" aria-current="page" to={"product"}>Products</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link active text-white fs-5 fw-semibold" aria-current="page" to={"con"}>Contact us</Link>
