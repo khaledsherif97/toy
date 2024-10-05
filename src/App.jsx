@@ -18,13 +18,13 @@ const Baby = lazy(() => import('./components/baby'))
 
 function App() {
   let routes=createBrowserRouter([
-    { path:"toy",element:<LayOut />,children:[
-      {index:true,element:<Home />},
+    { path:"toy/",element:<LayOut />,children:[
+      {path:"",element:<Home />},
       {path:"home",element:<Home />},
       {path:"about",element:<About />},
       {path:"con",element:<Contact />},
       {path:"product",element:<Products /> ,children:[
-        {index:true,element:<Boy/>},
+        {path:"",element:<Boy/>},
         {path:"girl",element:<Girl/>},
         {path:"soft",element:<Soft/>},
         {path:"baby",element:<Baby/>},
