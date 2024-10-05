@@ -19,7 +19,7 @@ const Baby = lazy(() => import('./components/baby'))
 function App() {
   let routes=createBrowserRouter([
     { path:"toy/",element:<LayOut />,children:[
-      {path:"",element:<Home />},
+      {path:"/toy/",element:<Home />},
       {path:"home",element:<Home />},
       {path:"about",element:<About />},
       {path:"con",element:<Contact />},
