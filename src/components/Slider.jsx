@@ -16,7 +16,7 @@ const Sliderr = () => {
     <div className="slider-container">
       <Slider {...settings}>
         <div>
-          <img src="../img/ba1.jpg" alt="" className='w-100 p-1' />
+          <img src="../../public/img/b1.jpg" alt="" className='w-100 p-1' />
         </div>
         <div>
         <img src="../img/s2.jpg" alt="" className='w-100 p-1' />
