@@ -8,7 +8,7 @@ const Products = () => {
           <h2 className='main-color text-center'>Our Products:</h2>
            <div className=" my-3 d-flex justify-content-center align-items-center ">
           <span>
-            <Link to="" className=''> <button className='custom-btn fs-5 fw-semibold mx-2'> Boys</button> </Link>
+            <Link to="boy" className=''> <button className='custom-btn fs-5 fw-semibold mx-2'> Boys</button> </Link>
           </span>
           <span>
             <Link to="girl"> <button className='custom-btn fs-5 fw-semibold mx-2'> Girls</button> </Link>

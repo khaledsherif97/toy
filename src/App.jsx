@@ -23,8 +23,8 @@ function App() {
       {path:"home",element:<Home />},
       {path:"about",element:<About />},
       {path:"con",element:<Contact />},
-      {path:"product",element:<Products /> ,children:[
-        {path:"",element:<Boy/>},
+      {path:"product/boy",element:<Products /> ,children:[
+        {path:"boy",element:<Boy/>},
         {path:"girl",element:<Girl/>},
         {path:"soft",element:<Soft/>},
         {path:"baby",element:<Baby/>},
