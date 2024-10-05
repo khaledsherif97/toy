@@ -1,7 +1,7 @@
 const boys=[
     {
       id:1,
-      image:"../img/b1.jpg",
+      image:"public/img/img/b1.jpg",
       title:"Boy's toy",
       desc:"A fun and educational game for children aged 6 to 15, enhancing creativity and teamwork.",
       price:"300"
